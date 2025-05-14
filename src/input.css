@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-    --font-main: 'Crimson Text', sans-serif;
+    --font-primary: 'Crimson Text', sans-serif;
     --font-secondary: 'Work Sans', sans-serif;
     --color-primary: #74C69D;
+    --color-dark: #212529;
+    --tracking-really-wide: .3rem;
 }
