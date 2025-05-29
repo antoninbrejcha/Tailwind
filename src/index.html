@@ -17,7 +17,9 @@
     />
   </head>
   <body>
-    <section class="bg-primary flex flex-col p-5 lg:items-center lg:px-0 lg:pt-9 lg:gap-10">
+    <section
+      class="bg-primary flex flex-col p-5 lg:items-center lg:px-0 lg:pt-9 lg:gap-10"
+    >
       <div class="flex flex-row justify-between h-auto items-center m lg:w-4/5">
         <div class="flex flex-row justify-between gap-2.5 items-center">
           <img src="../img/nav-img.svg" alt="Navigation Image" /><a
@@ -27,7 +29,19 @@
           >
         </div>
         <div>
-          <img src="../img/nav-list.svg" alt="Navigation List" />
+          <img
+            class="lg:hidden"
+            src="../img/nav-list.svg"
+            alt="Navigation List"
+          />
+          <div
+            class="hidden font-secondary text-white text-xl lg:flex lg:flex-row lg:gap-7"
+          >
+            <h2>Home</h2>
+            <h2>Portfolio</h2>
+            <h2>Services</h2>
+            <h2>Contact</h2>
+          </div>
         </div>
       </div>
       <div class="lg:flex lg:flex-row-reverse lg:w-4/5 lg:justify-between">
@@ -39,7 +53,9 @@
             class="flex flex-col gap-4 text-white font-bold font-secondary pt-7"
           >
             <h1 class="uppercase tracking-really-wide text-base">Welcome</h1>
-            <h2 class="font-primary text-3xl leading-9">
+            <h2
+              class="font-primary text-3xl leading-9 lg:text-title lg:leading-12"
+            >
               Lorem ipsum dolor sit amet consectetur
             </h2>
             <p class="text-base font-normal opacity-75 leading-5">
@@ -56,27 +72,47 @@
         </div>
       </div>
     </section>
-    <section class="flex flex-col items-center bg-white gap-14 p-5">
+    <section
+      class="flex flex-col items-center bg-white gap-14 p-5 lg:p-0 lg:pt-15"
+    >
       <div
         class="font-bold font-secondary flex flex-col gap-4 items-center text-center"
       >
         <h1 class="uppercase tracking-really-wide text-base text-primary">
           Partners
         </h1>
-        <h2 class="font-primary text-2xl leading-7">Lorem Ipsum Dolor</h2>
+        <h2 class="font-primary text-2xl leading-7 lg:text-title lg:leading-12">
+          Lorem Ipsum Dolor
+        </h2>
         <p class="text-xl font-normal leading-6">
           Lorem ipsum, dolor sit amet consectetur <br /><br />
           adipisicing elit.
         </p>
       </div>
-      <div class="flex flex-col gap-10 items-center">
-        <img src="../img/logo-google.svg" alt="Google" /><img
+      <div
+        class="flex flex-col gap-10 items-center lg:flex-row lg:gap-0 lg:w-4/5 lg:justify-center lg:flex-wrap"
+      >
+        <img
+          class="lg:mx-auto lg:px-4"
+          src="../img/logo-google.svg"
+          alt="Google"
+        /><img
+          class="lg:mx-auto lg:px-4"
           src="../img/logo-microsoft.svg"
           alt="Microsoft"
-        /><img src="../img/logo-airbnb.svg" alt="Airbnb" /><img
+        /><img
+          class="lg:mx-auto lg:px-4"
+          src="../img/logo-airbnb.svg"
+          alt="Airbnb"
+        /><img
+          class="lg:mx-auto lg:px-4"
           src="../img/logo-facebook.svg"
           alt="Facebook"
-        /><img src="../img/logo-spotify.svg" alt="Spotify" />
+        /><img
+          class="lg:mx-auto lg:px-4"
+          src="../img/logo-spotify.svg"
+          alt="Spotify"
+        />
       </div>
       <div>
         <button class="w-42.5 h-12 rounded-md bg-dark">
